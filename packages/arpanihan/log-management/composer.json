@@ -1,0 +1,22 @@
+{
+    "name": "arpanihan/log-management",
+    "description": "Reusable Laravel log management (ActionLog + ActivityLog)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arpanihan\\LogManagement\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "^10 || ^11"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arpanihan\\LogManagement\\LogManagementServiceProvider"
+            ]
+        }
+    }
+}
