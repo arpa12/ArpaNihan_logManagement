@@ -1,5 +1,5 @@
 {
-    "name": "arpanihan/log-management",
+    "name": "ArpaNihan/Log-Management",
     "description": "Reusable Laravel log management (ActionLog + ActivityLog)",
     "type": "library",
     "license": "MIT",
